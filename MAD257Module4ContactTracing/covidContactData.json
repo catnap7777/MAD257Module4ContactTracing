@@ -1,0 +1,52 @@
+[
+    {
+        "name": "R. Weasley",
+        "phone": "312-555-1212",
+        "city": "Universal City",
+        "state": "CA",
+        "id": 1001,
+        "isContacted": true,
+        "notes": "Person has been contacted and is under quarantine",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "H. Potter",
+        "phone": "312-555-1212",
+        "city": "Hollywood",
+        "state": "CA",
+        "id": 1002,
+        "isContacted": true,
+        "notes": "Person has been contacted and is under quarantine",
+        "imageName": "chincoteague"
+    },
+    {
+        "name": "H. Grainger",
+        "phone": "312-555-1212",
+        "city": "Valley View",
+        "state": "CA",
+        "id": 1003,
+        "isContacted": true,
+        "notes": "Person has been contacted and is under quarantine",
+        "imageName": "umbagog"
+    },
+    {
+        "name": "F. Baggins",
+        "phone": "312-555-1212",
+        "city": "Rivendale",
+        "state": "CA",
+        "id": 1004,
+        "isContacted": true,
+        "notes": "Person has been contacted and is under quarantine",
+        "imageName": "charleyrivers"
+    },
+    {
+        "name": "T. Stark",
+        "phone": "312-555-1212",
+        "city": "Berkley",
+        "state": "CA",
+        "id": 1005,
+        "isContacted": true,
+        "notes": "Person has been contacted and is under quarantine",
+        "imageName": "stmarylake"
+    },
+]

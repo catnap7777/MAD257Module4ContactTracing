@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        //Text("Hello, World!")
+        
+        //CircleImage()
+        
+        ContactList()
+        .offset(y: 200)
+        //.padding(.bottom, -130)
     }
 }
 

@@ -13,6 +13,12 @@
 		3A93BDBD25D85D9200E06B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A93BDBC25D85D9200E06B25 /* Assets.xcassets */; };
 		3A93BDC025D85D9200E06B25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A93BDBF25D85D9200E06B25 /* Preview Assets.xcassets */; };
 		3A93BDC325D85D9200E06B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A93BDC125D85D9200E06B25 /* LaunchScreen.storyboard */; };
+		3A93BDCE25D85E6900E06B25 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDCD25D85E6900E06B25 /* ModelData.swift */; };
+		3A93BDD025D85E7D00E06B25 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDCF25D85E7D00E06B25 /* Contact.swift */; };
+		3A93BDD225D85EEE00E06B25 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDD125D85EEE00E06B25 /* ContactRow.swift */; };
+		3A93BDD425D85F0800E06B25 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDD325D85F0800E06B25 /* ContactList.swift */; };
+		3A93BDD625D85F2A00E06B25 /* covidContactData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A93BDD525D85F2A00E06B25 /* covidContactData.json */; };
+		3A93BDD825D8650800E06B25 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDD725D8650800E06B25 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		3A93BDBF25D85D9200E06B25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A93BDC225D85D9200E06B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A93BDC425D85D9200E06B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A93BDCD25D85E6900E06B25 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3A93BDCF25D85E7D00E06B25 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3A93BDD125D85EEE00E06B25 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		3A93BDD325D85F0800E06B25 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		3A93BDD525D85F2A00E06B25 /* covidContactData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covidContactData.json; sourceTree = "<group>"; };
+		3A93BDD725D8650800E06B25 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +68,15 @@
 		3A93BDB525D85D9100E06B25 /* MAD257Module4ContactTracing */ = {
 			isa = PBXGroup;
 			children = (
+				3A93BDCA25D85DBB00E06B25 /* Views */,
+				3A93BDCB25D85DC900E06B25 /* Models */,
+				3A93BDCC25D85DE400E06B25 /* Resources */,
 				3A93BDB625D85D9100E06B25 /* AppDelegate.swift */,
 				3A93BDB825D85D9100E06B25 /* SceneDelegate.swift */,
-				3A93BDBA25D85D9100E06B25 /* ContentView.swift */,
 				3A93BDBC25D85D9200E06B25 /* Assets.xcassets */,
 				3A93BDC125D85D9200E06B25 /* LaunchScreen.storyboard */,
 				3A93BDC425D85D9200E06B25 /* Info.plist */,
+				3A93BDD525D85F2A00E06B25 /* covidContactData.json */,
 				3A93BDBE25D85D9200E06B25 /* Preview Content */,
 			);
 			path = MAD257Module4ContactTracing;
@@ -73,6 +88,33 @@
 				3A93BDBF25D85D9200E06B25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A93BDCA25D85DBB00E06B25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A93BDBA25D85D9100E06B25 /* ContentView.swift */,
+				3A93BDD125D85EEE00E06B25 /* ContactRow.swift */,
+				3A93BDD325D85F0800E06B25 /* ContactList.swift */,
+				3A93BDD725D8650800E06B25 /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A93BDCB25D85DC900E06B25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A93BDCD25D85E6900E06B25 /* ModelData.swift */,
+				3A93BDCF25D85E7D00E06B25 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A93BDCC25D85DE400E06B25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A93BDD625D85F2A00E06B25 /* covidContactData.json in Resources */,
 				3A93BDC325D85D9200E06B25 /* LaunchScreen.storyboard in Resources */,
 				3A93BDC025D85D9200E06B25 /* Preview Assets.xcassets in Resources */,
 				3A93BDBD25D85D9200E06B25 /* Assets.xcassets in Resources */,
@@ -147,8 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A93BDB725D85D9100E06B25 /* AppDelegate.swift in Sources */,
+				3A93BDD825D8650800E06B25 /* CircleImage.swift in Sources */,
+				3A93BDCE25D85E6900E06B25 /* ModelData.swift in Sources */,
+				3A93BDD025D85E7D00E06B25 /* Contact.swift in Sources */,
 				3A93BDB925D85D9100E06B25 /* SceneDelegate.swift in Sources */,
+				3A93BDD425D85F0800E06B25 /* ContactList.swift in Sources */,
 				3A93BDBB25D85D9100E06B25 /* ContentView.swift in Sources */,
+				3A93BDD225D85EEE00E06B25 /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
