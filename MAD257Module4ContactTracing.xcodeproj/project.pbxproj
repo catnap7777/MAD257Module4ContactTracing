@@ -78,7 +78,6 @@
 				3A93BDBC25D85D9200E06B25 /* Assets.xcassets */,
 				3A93BDC125D85D9200E06B25 /* LaunchScreen.storyboard */,
 				3A93BDC425D85D9200E06B25 /* Info.plist */,
-				3A93BDD525D85F2A00E06B25 /* covidContactData.json */,
 				3A93BDBE25D85D9200E06B25 /* Preview Content */,
 			);
 			path = MAD257Module4ContactTracing;
@@ -116,6 +115,7 @@
 		3A93BDCC25D85DE400E06B25 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3A93BDD525D85F2A00E06B25 /* covidContactData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
