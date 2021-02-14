@@ -19,6 +19,7 @@
 		3A93BDD425D85F0800E06B25 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDD325D85F0800E06B25 /* ContactList.swift */; };
 		3A93BDD625D85F2A00E06B25 /* covidContactData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A93BDD525D85F2A00E06B25 /* covidContactData.json */; };
 		3A93BDD825D8650800E06B25 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDD725D8650800E06B25 /* CircleImage.swift */; };
+		3A93BDDC25D8A93500E06B25 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A93BDDB25D8A93500E06B25 /* ContactDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3A93BDD325D85F0800E06B25 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		3A93BDD525D85F2A00E06B25 /* covidContactData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covidContactData.json; sourceTree = "<group>"; };
 		3A93BDD725D8650800E06B25 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3A93BDDB25D8A93500E06B25 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				3A93BDD125D85EEE00E06B25 /* ContactRow.swift */,
 				3A93BDD325D85F0800E06B25 /* ContactList.swift */,
 				3A93BDD725D8650800E06B25 /* CircleImage.swift */,
+				3A93BDDB25D8A93500E06B25 /* ContactDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				3A93BDD825D8650800E06B25 /* CircleImage.swift in Sources */,
 				3A93BDCE25D85E6900E06B25 /* ModelData.swift in Sources */,
 				3A93BDD025D85E7D00E06B25 /* Contact.swift in Sources */,
+				3A93BDDC25D8A93500E06B25 /* ContactDetail.swift in Sources */,
 				3A93BDB925D85D9100E06B25 /* SceneDelegate.swift in Sources */,
 				3A93BDD425D85F0800E06B25 /* ContactList.swift in Sources */,
 				3A93BDBB25D85D9100E06B25 /* ContentView.swift in Sources */,

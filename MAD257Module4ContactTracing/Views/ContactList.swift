@@ -11,10 +11,14 @@ import SwiftUI
 struct ContactList: View {
     var body: some View {
         
-        List(contacts) { contact in
-           
-            ContactRow(contact: contact)
+        NavigationView {
+            List(contacts) { contact in
+                NavigationLink(destination: ContactDetail(contact: contact)) {
+                    ContactRow(contact: contact)
+                    }
             }
+            .navigationBarTitle("Current Covid Contact Tracing List", displayMode: .inline)
+        }
     }
 }
 
@@ -23,3 +27,4 @@ struct LandmarkList_Previews: PreviewProvider {
         ContactList()
     }
 }
+

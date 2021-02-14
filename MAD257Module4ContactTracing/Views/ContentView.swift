@@ -15,7 +15,7 @@ struct ContentView: View {
         //CircleImage()
         
         ContactList()
-        .offset(y: 200)
+        .offset(y: 100)
         //.padding(.bottom, -130)
     }
 }

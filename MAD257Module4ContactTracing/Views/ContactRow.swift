@@ -18,12 +18,9 @@ struct ContactRow: View {
             contact.image
             .resizable()
             .frame(width: 50, height: 50)
-            //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            
             Text(contact.name)
             Spacer()
-//            Text(contact.city)
-//            Text(", ")
-//            Text(contact.state)
         }
             HStack {
                 Text(contact.city)
