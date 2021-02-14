@@ -5,7 +5,7 @@
         "city": "Universal City",
         "state": "CA",
         "id": 1001,
-        "isContacted": true,
+        "isContacted": false,
         "notes": "Person has not been contacted yet.  His owl lost his way home.",
         "imageName": "turtlerock"
     },

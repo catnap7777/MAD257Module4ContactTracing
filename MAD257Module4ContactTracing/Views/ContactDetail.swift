@@ -11,14 +11,14 @@ import SwiftUI
 struct ContactDetail: View {
     
     var contact: Contact
-    
+
     var body: some View {
         
         ScrollView {
 
             CircleImage(image: contact.image)
-                    .offset(y: 50)
-                    .padding(.bottom, -130)
+                    .offset(y: 25)
+                    .padding(.bottom, -150)
 
                 VStack(alignment: .leading) {
                     Text(contact.name)
@@ -28,10 +28,12 @@ struct ContactDetail: View {
 
                     HStack {
                         Text(contact.city)
+                        .italic()
                         Spacer()
                         Text(contact.state)
+                        .italic()
                     }
-                    .font(.subheadline)
+                    .font(.headline)
                     .foregroundColor(.secondary)
 
                     Divider()
@@ -41,11 +43,16 @@ struct ContactDetail: View {
                         .foregroundColor(.blue)
                     Text(contact.notes)
                 }
-                .offset(y:250)
+                .offset(y:225)
                 .padding()
 
         }
-        .navigationBarTitle(contact.name)
+        
+         //let y = cont(contacted: contact.isContacted)
+        
+        //.navigationBarTitle(contact.name)
+            .navigationBarTitle("Contacted?: \(String(contact.isContacted))", displayMode: .inline)
+        
 //        .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -56,4 +63,15 @@ struct ContactDetail_Previews: PreviewProvider {
         ContactDetail(contact: contacts[0])
         
     }
+}
+
+func cont(contacted: Bool) -> String {
+    var x = contacted
+    var wasContacted: String = ""
+    if x {
+        wasContacted = "Contacted"
+    } else {
+        wasContacted = "Not Contacted"
+    }
+    return wasContacted
 }
